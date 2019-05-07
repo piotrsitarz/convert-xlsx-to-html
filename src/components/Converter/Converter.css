@@ -1,0 +1,78 @@
+.excelTable {
+  border: 1px solid #B0CBEF;
+  border-width: 1px 0px 0px 1px;
+  font-size: 11pt;
+  font-family: Calibri;
+  font-weight: 100;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin: 40px auto;
+}
+
+.excelTable TH {
+  background-image: url('../../assets/images/excel-2007-header-bg.gif');
+  background-repeat: repeat-x;
+  font-weight: normal;
+  font-size: 14px;
+  border: 1px solid #9EB6CE;
+  border-width: 0px 1px 1px 0px;
+  height: 17px;
+}
+
+.excelTable TD {
+  border: 0px;
+  background-color: white;
+  padding: 0px 4px 0px 2px;
+  border: 1px solid #D0D7E5;
+  border-width: 0px 1px 1px 0px;
+}
+
+.excelTable TD B {
+  border: 0px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.excelTable TD.heading {
+  background-color: #E4ECF7;
+  text-align: center;
+  border: 1px solid #9EB6CE;
+  border-width: 0px 1px 1px 0px;
+}
+
+.excelTable TH.heading {
+  background-image: url('../../assets/images/excel-2007-header-left.gif');
+  background-repeat: none;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  height: 35px;
+  width: 120px;
+  border-width: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+
+input[type=file] {
+  width: 120px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 60px);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.paragraph-error {
+  color: red;
+  text-align: center;
+}
+
+tr td:last-child {
+  display: none;
+}
